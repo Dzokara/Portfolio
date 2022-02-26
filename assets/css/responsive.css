@@ -587,6 +587,15 @@
   footer .nav-anchor {
     font-size: 18px;
   }
+  footer .wrapper ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .wrapper ul li:nth-child(2) {
+    margin: 10px 0px;
+  }
 }
 
 @media screen and (max-width: 480px) and (max-width: 425px) {
@@ -622,15 +631,6 @@
   }
   footer .block {
     width: 70%;
-  }
-  footer .wrapper ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  footer .wrapper ul li:nth-child(2) {
-    margin: 10px 0px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
