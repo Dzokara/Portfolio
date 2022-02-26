@@ -555,6 +555,22 @@ $orange:#FE9000;
             width:90%;
         }
     }
+    #contact{
+        tr:nth-child(1),tr:nth-child(2){
+            td{
+                display:table-row;
+            }
+            input{
+                width:218%;
+            }
+        }
+        table{
+            border-spacing:0;
+            input{
+                margin-bottom:20px;
+            }
+        }
+    }
     footer{
         padding:20px 0px 0px 0px;
         .block{
@@ -578,6 +594,15 @@ $orange:#FE9000;
             .wrapper-contact{
                 width:100%;
             }
+            table{
+                width:95%;
+                margin:0 auto;
+            }
+            tr:nth-child(1),tr:nth-child(2){
+                input{
+                    width:202%;
+                }
+            }
         }
         footer{
             .wrapper{
@@ -588,6 +613,18 @@ $orange:#FE9000;
             }
         }
     }
+    @media screen and (max-width:375px){
+        #contact{
+            tr:nth-child(1),tr:nth-child(2){
+                input{
+                    width:180%;
+                }
+        }
+        input{
+            margin-bottom:15px;
+        }
+    }
+}
     @media screen and (max-width: 320px){
         #about{
             .contacts{
@@ -600,7 +637,15 @@ $orange:#FE9000;
             #submit1,::placeholder{
                 font-size:14px;
             }
+            tr:nth-child(1),tr:nth-child(2){
+                input{
+                    width:153%;
+                }
+            input{
+                margin-bottom:10px;
+            }
         }
+    }
         footer{
             .nav-anchor{
                 font-size:17px;

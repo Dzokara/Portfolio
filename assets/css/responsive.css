@@ -575,6 +575,18 @@
   #projects .project-block {
     width: 90%;
   }
+  #contact tr:nth-child(1) td, #contact tr:nth-child(2) td {
+    display: table-row;
+  }
+  #contact tr:nth-child(1) input, #contact tr:nth-child(2) input {
+    width: 218%;
+  }
+  #contact table {
+    border-spacing: 0;
+  }
+  #contact table input {
+    margin-bottom: 20px;
+  }
   footer {
     padding: 20px 0px 0px 0px;
   }
@@ -602,11 +614,27 @@
   #contact .wrapper-contact {
     width: 100%;
   }
+  #contact table {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #contact tr:nth-child(1) input, #contact tr:nth-child(2) input {
+    width: 202%;
+  }
   footer .wrapper {
     width: 100%;
   }
   footer .nav-anchor {
     font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 480px) and (max-width: 375px) {
+  #contact tr:nth-child(1) input, #contact tr:nth-child(2) input {
+    width: 180%;
+  }
+  #contact input {
+    margin-bottom: 15px;
   }
 }
 
@@ -625,6 +653,12 @@
   }
   #contact #submit1, #contact ::placeholder {
     font-size: 14px;
+  }
+  #contact tr:nth-child(1) input, #contact tr:nth-child(2) input {
+    width: 153%;
+  }
+  #contact tr:nth-child(1) input, #contact tr:nth-child(2) input {
+    margin-bottom: 10px;
   }
   footer .nav-anchor {
     font-size: 17px;
